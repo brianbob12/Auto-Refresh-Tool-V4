@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<title>Auto Refresh Tool Guide</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="topBar">
+			<a href="Guide To Use.html"><div class="barBox">Home</div></a>
+			<a href="HowToUse.html"><div class="barBox">How To Use</div></a>
+			<a href="TroubleShooting.html"><div class="barBox"  id="selected">Troubleshooting</div></a>
+			<a href="Installation.html"><div class="barBox">Installation</div></a>
+		</div>
+		<h2>Error Refrence</h2>
+		<table style="width:100%">
+		  <tr>
+		    <th><b>Error Code</b></th>
+		    <th><b>Probelm</b></th>
+		    <th><b>Solution</b></th>
+		  </tr>
+		  <tr>
+		    <td>0x0</td>
+		    <td>missing files</td>
+		    <td>reinstall AutoRefrehTool</td>
+		  </tr>
+		  <tr>
+		    <td>0x1</td>
+		    <td>curl file missing/bad URL</td>
+		    <td>Check for the presance of the "curl.exe" file. If there then find invalid URL or clear all URLs by running the resetPerameters file.</td>
+		  </tr>
+			<tr>
+		    <td>0x2</td>
+		    <td>invalid keyword</td>
+		    <td>Reset all keywords.</td>
+		  </tr>
+			<tr>
+		    <td>0x3(-specifier)</td>
+		    <td>email error</td>
+		    <td>Check internet connection.</td>
+		  </tr>
+			<tr>
+		    <td>0x3-0 or ox3-5</td>
+		    <td>Emil List Error</td>
+		    <td>Check the email list for invalid emails.</td>
+		  </tr>
+			<tr>
+		    <td>0x4</td>
+		    <td>Key Word Error</td>
+		    <td>Check that all keywords have more than one latter and are valid.</td>
+		  </tr>
+		</table>
+		<h2>unexpected crash or program won't start</h2>
+		<p>
+		The most likley cause of a crash is corrupted perameters. In order to fix
+		this open the program folder and run the resetPerameters python file. After
+		this try to re-enter the website information and try again. If the issue
+		persists it is likely due to incorect input data such as incorrect URL.
+		<br>
+		<p>
+		An unexpected crash could also occur due to mising files. To check that all
+		files are present, open the program and confirm the presence of the following
+		essencial files:
+		<ul>
+			<li>configuration tool -python file</li>
+			<li>curl              - application</li>
+			<li>emails            - text document</li>
+			<li>keywords          - text document</li>
+			<li>main              - python file</li>
+			<li>watchList         - text documet</li>
+		</ul>
+		If one of thease files are missing, reinstall Auto Refresh Tool.
+		</p>
+		<br>
+		<br>
+		<p>
+		The crash could possibly be due to a lack of internet connection.
+		</p>
+		<h2>Reciving Emails Too Ofen</h2>
+		<p>
+		This issue is caused by the selected keywords changing constantly between
+		website loads. The keyword and website at fult can be identified in the
+		"keywords:" section of the email. Remove this keyword by navigating to the
+		page for that webpage fromt he main menu and clicking on the red box
+		containing this keyword.
+		</p>
+		<h2>Not Reciving Emails When Webpage Is Updated</h2>
+		<p>
+		This is most likley caused because the keywords are not applicable for this
+		specific page or update. To fix this, more keywods should be added.
+		</p>
+		<h2>Windows prompts with, "how do you what to open this file"</h2>
+		<p>
+		This is caused by the inncorrect installation of python. Refer to the installation guaide <a href="Installation.html">here</a>.
+		</p>
+		<img src="openwith.png">
+	</body>
+</html>
