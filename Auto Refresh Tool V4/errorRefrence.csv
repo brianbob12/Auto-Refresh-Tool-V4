@@ -1,4 +1,4 @@
-hex code,,dec code,technical description,adV
+hex code,dec code,technical description,adV
 0x0,0,loading perameter files,none
 0x1,1,curl error,watchList term
 0x2,2,keyword error,none
@@ -9,4 +9,4 @@ hex code,,dec code,technical description,adV
 0x3-3,3.3,email login falure,watchList index
 0x3-4,3.4,MIMEText message building falure,email target
 0x3-5,3.5,mail sending error,email target
-0x4,,4error in countKeyWords,index
+0x4,4,error in countKeyWords,index
